@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bodyDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  box-sizing: border-box;
+}
+
+.outerDiv {
+  width: 30rem;
+  height: 20rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #2854a1;
+}
+
+.card-number {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  margin: 0 1.5rem;
+  margin-top: 3rem;
+}
+
+.card-number p {
+  letter-spacing: 0.3rem;
+}
+
+.expiry-date {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  margin-right: 2rem;
+  margin-top: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.secCode {
+  margin: 0 2rem;
+}
+
+.valid-thru {
+  line-height: 13px;
+  text-indent: -3px;
+}
+
+.year {
+  font-size: 2rem;
+}
+
+.valid-container {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  letter-spacing: 4px;
+}
